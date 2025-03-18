@@ -1,0 +1,116 @@
+/* Reset des styles par défaut */
+body, h1, h2, h3, h4, p, form, label, input, button, nav, section, footer {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'century gothic', 'Open sans', Arial, sans-serif;
+}
+
+body {
+  background-color: #f4f4f4;
+  color: #333;
+  line-height: 1.6;
+  padding: 20px;
+}
+
+/* Styles pour la page de connexion */
+.login-container {
+  max-width: 400px;
+  margin: 50px auto;
+  padding: 20px;
+  background: #fff;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.login-container h2 {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.login-container form div {
+  margin-bottom: 15px;
+}
+
+.login-container label {
+  display: block;
+  margin-bottom: 5px;
+}
+
+.login-container input {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+.login-container button {
+  width: 100%;
+  padding: 10px;
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.login-container button:hover {
+  background-color: #0056b3;
+}
+
+.login-container p {
+  text-align: center;
+  margin-top: 15px;
+  font-size: 0.9em;
+  color: #666;
+}
+
+/* Styles pour la page d'accueil */
+.accueil-container {
+  max-width: 800px;
+  margin: 50px auto;
+  padding: 20px;
+  background: #fff;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.accueil-container h2 {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.accueil-container nav {
+  display: flex;
+  justify-content: space-around;
+  margin-bottom: 20px;
+}
+
+.accueil-container nav a {
+  text-decoration: none;
+  color: #007bff;
+}
+
+.accueil-container nav a:hover {
+  text-decoration: underline;
+}
+
+.accueil-container h3 {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.accueil-container section {
+  margin-bottom: 20px;
+}
+
+.accueil-container section h4 {
+  margin-bottom: 10px;
+}
+
+.accueil-container footer {
+  text-align: center;
+  margin-top: 20px;
+  font-size: 0.9em;
+  color: #666;
+}
